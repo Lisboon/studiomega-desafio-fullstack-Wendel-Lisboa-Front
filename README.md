@@ -34,13 +34,7 @@ Passos para configuração, Clone o repositório:
 Acesse a pasta do projeto:
 
 ```bash
-   cd my-leads
-```
-
-Acesse a pasta do código-fonte:
-
-```bash
-   cd my-app
+   cd studiomega-desafio-fullstack-Wendel-Lisboa-Front
 ```
 
 Instale as dependências:
