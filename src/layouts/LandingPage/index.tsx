@@ -26,7 +26,6 @@ export default function LandingPage({ children, title, description }: Props) {
 
   return (
     <main className="relative min-h-screen bg-[#141415]">
-      {/* Botão Sair no canto superior direito - agora com z-index para garantir visibilidade */}
       {user !== null && (
         <div className="fixed top-4 right-4 z-50">
           <ButtonWithLoading
@@ -41,8 +40,6 @@ export default function LandingPage({ children, title, description }: Props) {
           </ButtonWithLoading>
         </div>
       )}
-
-      {/* Conteúdo principal */}
       <div className="flex h-screen w-screen justify-center items-center pt-8">
         <div className="rounded-sm bg-white justify-center items-center">
           <div className="flex flex-col items-center justify-center">
