@@ -1,6 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
-
 import FormItemInput from "@/components/FormItemInput";
 import callAPI from "@/services/api";
 import ButtonWithLoading from "@/components/ButtonWithLoading";
@@ -31,7 +30,7 @@ export default function Login() {
     const { name, value } = inputEvent.target;
     setCredentials({ ...credentials, [name]: value });
   }
-
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   function handleGoToNewAccount() {
     push("/account");
   }
