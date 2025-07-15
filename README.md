@@ -1,54 +1,53 @@
-# My Leads
+# Meus Leads - Studiomega
 
 ![badge](https://img.shields.io/badge/status-completed-blue)
 
-Web aplication create to manager leads for clients, with user authentication. A purpose behind this is to learning to Next.js 14 with Tailwind CSS.
+Aplicação web desenvolvida para gerenciamento de leads para clientes, com sistema de autenticação de usuários.
 
-## API Usage
+## Uso da API
 
-the web application use a API that is online on [heroku](https://www.heroku.com/) with this [URL](https://desafiostudiomega-2d925d8d0b86.herokuapp.com/v1)
+A aplicação consome uma API hospedada no [heroku](https://www.heroku.com/) com a seguinte URL base [URL](https://desafiostudiomega-2d925d8d0b86.herokuapp.com/v1)
 
-tecnologies used on API is [NestJS](https://nestjs.com/)
+A API foi desenvolvida utilizando [NestJS](https://nestjs.com/)
 
-## Tecnologies used
+## Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org)
 
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## Getting Started
+## Como Executar o Projeto
 
-Pre-requisites programs that you must have installed on your device:
+Pré-requisitos:
 
 - [Node](https://nodejs.org/pt)
 
 - [Git](https://git-scm.com/downloads)
 
-Now you must follow the steps, first you must get the repository on your device
-
+Passos para configuração, Clone o repositório:
 ```bash
     git clone https://github.com/JoseVitor-1337/my-leads.git
 ```
 
-Access the git folder
+Acesse a pasta do projeto:
 
 ```bash
    cd my-leads
 ```
 
-Access the source code folder
+Acesse a pasta do código-fonte:
 
 ```bash
    cd my-app
 ```
 
-Install all dependencies
+Instale as dependências:
 
 ```bash
     npm run install
 ```
 
-Initialize the server
+Inicie o servidor de desenvolvimento:
 
 ```bash
     npm run dev
