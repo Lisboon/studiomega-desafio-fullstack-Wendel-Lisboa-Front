@@ -40,7 +40,7 @@ Acesse a pasta do projeto:
 Instale as dependências:
 
 ```bash
-    npm run install
+    npm install
 ```
 
 Inicie o servidor de desenvolvimento:
