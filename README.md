@@ -28,7 +28,7 @@ Pré-requisitos:
 
 Passos para configuração, Clone o repositório:
 ```bash
-    git clone https://github.com/JoseVitor-1337/my-leads.git
+    git clone [https://github.com/JoseVitor-1337/my-leads.git](https://github.com/Lisboon/studiomega-desafio-fullstack-Wendel-Lisboa-Front.git)
 ```
 
 Acesse a pasta do projeto:
